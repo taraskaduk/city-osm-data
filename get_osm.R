@@ -140,7 +140,7 @@ rds_list <- list(
          metro_stops = metro_stops
        )
 
-saveRDS(rds_list, paste0("output/",name, "_osm.RDS"))
+saveRDS(rds_list, paste0(name, "_osm.RDS"))
 
 save(
   coords,
@@ -150,7 +150,7 @@ save(
   railway,
   metro_lines,
   metro_stops,
-  file = paste0("output/",name, "_osm.RData"))
+  file = paste0(name, "_osm.RData"))
 
 
 
